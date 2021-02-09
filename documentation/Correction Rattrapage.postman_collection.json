@@ -33,7 +33,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://0.0.0.0:3000/salads/id",
+					"raw": "http://0.0.0.0:3000/salads/602268d4d896de5a9dcc2fc5",
 					"protocol": "http",
 					"host": [
 						"0",
@@ -44,7 +44,7 @@
 					"port": "3000",
 					"path": [
 						"salads",
-						"id"
+						"602268d4d896de5a9dcc2fc5"
 					]
 				}
 			},
@@ -55,6 +55,15 @@
 			"request": {
 				"method": "POST",
 				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nom\" : \"Salade du prof\",\n    \"description\": \"\",\n    \"ingredients\" : [\"thon\",\"avoine\",\"mache\"]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
 				"url": {
 					"raw": "http://0.0.0.0:3000/salads",
 					"protocol": "http",
