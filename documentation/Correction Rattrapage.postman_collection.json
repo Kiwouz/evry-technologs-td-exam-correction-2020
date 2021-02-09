@@ -1,0 +1,76 @@
+{
+	"info": {
+		"_postman_id": "f826797c-aa52-4df0-a64a-dff318390755",
+		"name": "Correction Rattrapage",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Find salad",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://0.0.0.0:3000/salads",
+					"protocol": "http",
+					"host": [
+						"0",
+						"0",
+						"0",
+						"0"
+					],
+					"port": "3000",
+					"path": [
+						"salads"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "View Salad",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://0.0.0.0:3000/salads/id",
+					"protocol": "http",
+					"host": [
+						"0",
+						"0",
+						"0",
+						"0"
+					],
+					"port": "3000",
+					"path": [
+						"salads",
+						"id"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Salad",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://0.0.0.0:3000/salads",
+					"protocol": "http",
+					"host": [
+						"0",
+						"0",
+						"0",
+						"0"
+					],
+					"port": "3000",
+					"path": [
+						"salads"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

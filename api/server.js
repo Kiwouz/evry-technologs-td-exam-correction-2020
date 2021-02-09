@@ -38,7 +38,7 @@ app.get('/salads/:id', function (req, res) {
 app.post('/salads', function (req, res) {
     // ---
     console.info("Upload a file");
-    res.status(400).json({message : "todo"})
+    res.status(400).json({message : "todo to upload"})
 
     // --- Catch dans busboy le stream de mes images
     req.pipe(req.busboy);
@@ -76,6 +76,6 @@ app.use(function(req, res, next) {
     res.status(404).send('Sorry cant find that!');
 });
 
-app.listen(3011,function(){
-    console.info('HTTP server started on port 3011');
+app.listen(3000,function(){
+    console.info('HTTP server started on port 3000');
 });
