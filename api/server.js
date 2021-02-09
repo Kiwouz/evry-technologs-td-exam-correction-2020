@@ -26,7 +26,7 @@ app.use(busboy());
 let mongoose = require('mongoose');
 mongoose.Promise = require('bluebird');
 let database = mongoose.connect(
-    "mongodb://localhost/demo",
+    "mongodb://mongo/demo",
     {
         promiseLibrary: require('bluebird'),
         useNewUrlParser: true,
@@ -36,7 +36,7 @@ let database = mongoose.connect(
 // Charger le model
 const SaladModel = require('./Salad');
 const Salad = mongoose.model('Salad');
-
+// toto
 // ------------------------
 // LIST ROUTE ou EndPoint
 // ------------------------
